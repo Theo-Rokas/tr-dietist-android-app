@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!-- Home fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.t.rokas.healthydiet.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <!-- Photos fragment -->
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.t.rokas.healthydiet.ui.photos.PhotosFragment"
+        android:label="@string/menu_photos"
+        tools:layout="@layout/photos_fragment" />
+
+    <!-- BMI fragment -->
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.t.rokas.healthydiet.ui.bmi.BmiFragment"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/bmi_fragment" />
+
+    <!-- Team fragment -->
+    <fragment
+        android:id="@+id/nav_team"
+        android:name="com.t.rokas.healthydiet.ui.team.TeamFragment"
+        android:label="@string/menu_team"
+        tools:layout="@layout/team_fragment" />
+</navigation>

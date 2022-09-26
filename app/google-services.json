@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "951692917315",
+    "firebase_url": "https://trokasdb.firebaseio.com",
+    "project_id": "trokasdb",
+    "storage_bucket": "trokasdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951692917315:android:e7a86703dd96155e10f2f6",
+        "android_client_info": {
+          "package_name": "com.t.rokas.healthydiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951692917315-t6pj5lls6lh1bfl7sm3e2pq2b68h0lbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllKqLHVW3oMHML-ku1qhepTZk1r_lqo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951692917315-t6pj5lls6lh1bfl7sm3e2pq2b68h0lbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

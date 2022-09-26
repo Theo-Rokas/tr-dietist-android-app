@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.team.TeamFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Team member icon 1 -->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/team1ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/team1"
+            app:civ_border_color="@color/red_A400"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/red_A100"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline25"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <!-- Team member icon 2 -->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/team2ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/team2"
+            app:civ_border_color="@color/red_A400"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/red_A100"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <!-- Team member icon 3 -->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/team3ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/team3"
+            app:civ_border_color="@color/red_A400"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/red_A100"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline25"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <!-- Team member icon 4 -->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/team4ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/team4"
+            app:civ_border_color="@color/red_A400"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/red_A100"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline25"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="200dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="350dp" />
+
+        <!-- Team member name 1 -->
+        <TextView
+            android:id="@+id/team1NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nur Lucero"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team1ImageView" />
+
+        <!-- Team member name 2 -->
+        <TextView
+            android:id="@+id/team2NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiona Yates"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team2ImageView" />
+
+        <!-- Team member name 3 -->
+        <TextView
+            android:id="@+id/team3NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerri Ryder"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team3ImageView" />
+
+        <!-- Team member name 4 -->
+        <TextView
+            android:id="@+id/team4NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alissia Parrish"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team4ImageView" />
+
+        <!-- Team member info 1 -->
+        <TextView
+            android:id="@+id/team1InfoTextView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/lorem_ipsum_short"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toTopOf="@+id/guideline25"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team1JobTextView" />
+
+        <!-- Team member info 2 -->
+        <TextView
+            android:id="@+id/team2InfoTextView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/lorem_ipsum_short"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toTopOf="@+id/guideline25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team2JobTextView" />
+
+        <!-- Team member info 3 -->
+        <TextView
+            android:id="@+id/team3InfoTextView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/lorem_ipsum_short"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team3JobTextView" />
+
+        <!-- Team member info 4 -->
+        <TextView
+            android:id="@+id/team4InfoTextView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/lorem_ipsum_short"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team4JobTextView" />
+
+        <!-- Team member job 1 -->
+        <TextView
+            android:id="@+id/team1JobTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutricionist"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team1NameTextView" />
+
+        <!-- Team member job 2 -->
+        <TextView
+            android:id="@+id/team2JobTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dietician"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team2NameTextView" />
+
+        <!-- Team member job 3 -->
+        <TextView
+            android:id="@+id/team3JobTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutricionist"
+            app:layout_constraintEnd_toStartOf="@+id/guideline24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team3NameTextView" />
+
+        <!-- Team member job 4 -->
+        <TextView
+            android:id="@+id/team4JobTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dietician"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/team4NameTextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

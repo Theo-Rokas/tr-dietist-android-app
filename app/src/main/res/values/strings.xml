@@ -1,0 +1,39 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Healthy Diet</string>
+
+    <!-- Activity name options -->
+    <string name="main_activity_name">Healthy Diet</string>
+    <string name="fullscreen_activity_name">Fullscreen</string>
+    <string name="contact_activity_name">Contact</string>
+
+    <!-- Nav header title options -->
+    <string name="nav_header_title">Healthy Diet</string>
+    <string name="nav_header_subtitle">HealthyDiet.com</string>
+
+    <!-- Toolbar options -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu options -->
+    <string name="menu_home">Home</string>
+    <string name="menu_photos">Photos</string>
+    <string name="menu_bmi">BMI</string>
+    <string name="menu_team">Team</string>
+
+    <!-- Text options -->
+    <string name="lorem_ipsum_short">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </string>
+    <string name="lorem_ipsum_long">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </string>
+
+    <!-- Gender options -->
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- Footer -->
+    <string name="footer">Created by T.Rokas</string>
+</resources>
